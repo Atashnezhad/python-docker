@@ -4,7 +4,7 @@
 # build a docker image
 .PHONY: build
 build:
-	docker build --tag python-docker .
+	docker build -t python-docker .
 
 # see the docker images
 .PHONY: images
